@@ -1,0 +1,123 @@
+def expenses(self):
+        print("Let's take a look at the expenses.")
+        self.taxes = int(input('How much is your taxes?: '))
+        if self.taxes >= 0:
+            print(f"Your monthly taxes is {self.taxes}")
+        else:
+            print("Invalid input, please try again.")
+        self.insurance = int(input('How much is your insurance?: '))
+        if self.insurance >= 0:
+            print(f"Your monthly insurance is {self.insurance}")
+        else:
+            print("Invalid input, please try again.")
+        self.hoa_fee = int(input('How much is your HOA fee?: '))
+        if self.hoa_fees >= 0:
+            print(f"Your monthly hoa fee expense is {self.hoa_fees}")
+        elif self.hoa_fees == 0:
+            print('There were no expenses spent in this department.')
+        else:
+            print("Invalid input, please try again.")
+        self.lawn_snow = int(input('How much is your lawn/snow fee?: '))
+        if self.lawn_snow >= 0:
+            print(f"Your monthly lawn/snow expense is {self.lawn}")
+        elif self.lawn_snow == 0:
+            print('There were no expenses spent in this department.')
+        else:
+            print("Invalid input, please try again.")
+        self.vacancy = int(input('How much is your vacancy?: '))
+        if self.vacancy >= 0:
+            print(f"Your investment property's unrealized income potential is {self.vacancy}")
+        else:
+            print("Invalid input, please try again.")
+        self.repairs = int(input('How much are your repairs?: '))
+        if self.repairs >= 0:
+            print(f"Your monthly repair expense is {self.repairs}")
+        elif self.repairs == 0:
+            print('There were no expenses in this department.')
+        else:
+            print("Invalid input, please try again.")
+        self.cap_ex = int(input('How much is your capital expenditure?: '))
+        if self.cap_ex >= 0:
+            print(f"Your monthly capital expenditure espense is {self.cap_ex}")
+        elif self.cap_ex == 0:
+            print('There were no expenses spent in this department.')
+        else:
+            print("Invalid input, please try again.")
+        self.property_management = int(input('How much is your property management?: '))
+        if self.property_management >= 0:
+            print(f"Your monthly property management fee is {self.property_management}")
+        elif self.property_management == 0:
+            print('There were no expenses spent in this department.')
+        else:
+            print("Invalid input, please try again.")
+        self.electric = int(input('How much is your electricity?: '))
+        if self.electric >= 0:
+            print(f"Your monthly electric expense is {self.electric}")
+        else:
+            print("Invalid input, please try again.")
+        self.water = int(input('How much is your water expense?: '))
+        if self.water >= 0:
+            print(f"Your monthly water expense is {self.water}")
+        else:
+            print("Invalid input, please try again.")
+        self.sewer = int(input('How much is the sewer expense?: '))
+        if self.sewer >= 0:
+            print(f"Your monthly sewer expense is {self.sewer}")
+        else:
+            print("Invalid input, please try again.")
+        self.garbage = int(input('How much is your garbage?: '))
+        if self.garbage >= 0:
+            print(f"Your monthly garbage expense is {self.garbage}")
+        else:
+            print("Invalid input, please try again.")
+        self.gas = int(input('How much is your gas?: '))
+        if self.gas >= 0:
+            print(f"Your monthly gas expense is {self.gas}")
+        else:
+            print("Invalid input, please try again.")
+        if self.electric >= 0:
+            print(f"Your monthly electric expense is {self.electric}")
+        else:
+            print("Invalid input, please try again.")
+        if self.gas >= 0:
+            print(f"Your monthly gas expense is {self.gas}")
+        else:
+            print("Invalid input, please try again.")
+        if self.hoa_fees >= 0:
+            print(f"Your monthly hoa fee expense is {self.hoa_fees}")
+        elif self.hoa_fees == 0:
+            print('There were no expenses spent in this department.')
+        else:
+            print("Invalid input, please try again.")
+        if self.lawn_snow >= 0:
+            print(f"Your monthly lawn/snow expense is {self.lawn}")
+        elif self.lawn_snow == 0:
+            print('There were no expenses spent in this department.')
+        else:
+            print("Invalid input, please try again.")
+        if self.vacancy >= 0:
+            print(f"Your investment property's unrealized income potential is {self.vacancy}")
+        else:
+            print("Invalid input, please try again.")
+        if self.repairs >= 0:
+            print(f"Your monthly repair expense is {self.repairs}")
+        else:
+            print("Invalid input, please try again.")
+        if self.cap_ex >= 0:
+            print(f"Your monthly capital expenditure espense is {self.cap_ex}")
+        elif self.cap_ex == 0:
+            print('There were no expenses spent in this department.')
+        else:
+            print("Invalid input, please try again.")
+        if self.property_management >= 0:
+            print(f"Your monthly property management fee is {self.property_management}")
+        elif self.property_management == 0:
+            print('There were no expenses spent in this department.')
+        else:
+            print("Invalid input, please try again.")
+        if self.mortgage_payment >= 0:
+            print(f"Your monthly mortgage is {self.mortgage_payment}")
+        else:
+            print("Invalid input, please try again.")
+        self.total_monthly_expenses = self.taxes + self.insurance + self.water + self.garbage + self.electric + self.gas + self.hoa_fees + self.lawn + self.vacancy + self.repairs + self.cap_ex + self.property_management + self.mortgage_payment
+        print(f"The total monthly expense is {self.total_monthly_expenses}")
